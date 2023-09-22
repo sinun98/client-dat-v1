@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "ESNext",
+      "strict": true,
+      "jsx": "react",
+      "moduleResolution":"node",
+      "types": ["react", "react-dom", "react-router-dom"],
+      "esModuleInterop": true
+    }
+  }
