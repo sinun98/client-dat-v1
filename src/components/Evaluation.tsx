@@ -1,7 +1,7 @@
 import React from 'react';
 import MyTable from './MyTable';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import Layout from './Layout'
+import Layout from '../layouts/Layout'
 
 function Evaluation() {
   return (
