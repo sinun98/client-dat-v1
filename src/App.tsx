@@ -10,11 +10,13 @@ import MyTable from './components/MyTable';
 
 function App() {
   return (
-    <Switch>
-      <Route exact path="/evaluation" component={Evaluation} />
-      <Route path="/evaluation/my_Table" component={MyTable} />
-      <Redirect from="/" to="/evaluation" />
-    </Switch>
+    <Router>
+      <Switch>
+        <Route exact path="/evaluation" component={Evaluation} />
+        <Route path="/evaluation/my_Table" component={MyTable} />
+        <Redirect from="/" to="/evaluation" />
+      </Switch>
+    </Router>
   );
 }
 

@@ -5,8 +5,9 @@ import Footer from './Footer';
 import '../styles/App.scss';
 
 interface LayoutProps {
-    children: ReactNode; // Hier geben wir den Datentyp ReactNode an
+    children: ReactNode;  
   }
+  
 function Layout({ children }: LayoutProps) {
   return (
     <div>

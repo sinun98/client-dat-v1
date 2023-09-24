@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { Toast } from 'primereact/toast';
-import 'primereact/resources/themes/saga-green/theme.css'; // Import PrimeReact theme
-import 'primereact/resources/primereact.min.css'; // Import PrimeReact styles
-import 'primeicons/primeicons.css'; // Import PrimeIcons styles
+import 'primereact/resources/themes/saga-green/theme.css'; 
+import 'primereact/resources/primereact.min.css'; 
+import 'primeicons/primeicons.css'; 
 import Layout from '../layouts/Layout';
 import VehicleTable from './VehicleTable';
 import { Vehicle } from '../types/Vehicle';
